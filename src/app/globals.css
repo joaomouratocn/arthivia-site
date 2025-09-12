@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+:root {
+  --primary: #3c6799;
+  --text-input: #666666;
+}

@@ -1,5 +1,5 @@
-import Image from "next/image";
+import { Header } from "./components/header";
 
 export default function Home() {
-  return <h1>Arthivia site</h1>;
+  return <Header />;
 }
