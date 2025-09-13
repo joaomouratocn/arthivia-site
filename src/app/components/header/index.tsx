@@ -24,19 +24,19 @@ export function Header() {
       <div className="flex gap-5 px-5">
         <a
           href="#services"
-          className={`${jetBrainsMono.className} text-white cursor-pointer text-[12px] hover:text-green-200 sm:text-[16px]`}
+          className={`${jetBrainsMono.className} text-white cursor-pointer text-[14px] hover:text-green-200 md:text-[16px]`}
         >
           Serviços
         </a>
         <a
           href="#portfolio"
-          className={`${jetBrainsMono.className} text-white cursor-pointer text-[12px] hover:text-green-200 sm:text-[16px]`}
+          className={`${jetBrainsMono.className} text-white cursor-pointer text-[14px] hover:text-green-200 md:text-[16px]`}
         >
           Portfólio
         </a>
         <a
           href="#contact"
-          className={`${jetBrainsMono.className} text-white cursor-pointer text-[12px] hover:text-green-200 sm:text-[16px]`}
+          className={`${jetBrainsMono.className} text-white cursor-pointer text-[14px] hover:text-green-200 md:text-[16px]`}
         >
           Contato
         </a>
