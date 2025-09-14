@@ -18,7 +18,7 @@ export function ActionSection() {
                     </p>
                     <div className="flex gap-3">
                         <a
-                            href=""
+                            href="https://wa.me/5516991376210"
                             className="px-6 py-3 bg-[var(--primary)] rounded-xl text-white text-sm sm:text-base font-medium shadow-md hover:shadow-lg hover:scale-105 transition-transform"
                         >
                             🚀 Falar no WhatsApp
