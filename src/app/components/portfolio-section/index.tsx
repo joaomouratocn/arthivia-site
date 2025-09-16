@@ -1,4 +1,5 @@
 import Image from "next/image";
+import pdv from "@/assets/pdv.jpg"
 import stockControl from "@/assets/stock-control.jpg"
 import temperatureControl from "@/assets/temperature-control.jpg"
 import managerOs from "@/assets/mananger-os.jpg"
@@ -29,7 +30,13 @@ export function PortfolioSection() {
                     <h3 className="font-bold mt-3">Controle de Temperatura</h3>
                     <p className="text-sm text-gray-600">Monitore e registre temperaturas de diferentes pontos em um só painel, garantindo segurança e conformidade.</p>
                 </div>
-
+                <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center min-h-[280px]">
+                    <div className="w-37 h-37 flex items-center justify-center">
+                        <Image src={pdv} alt="Image automations" quality={100} priority width={150} height={150} />
+                    </div>
+                    <h3 className="font-bold mt-3">PDV Inteligente</h3>
+                    <p className="text-sm text-gray-600">Simplifique suas vendas com um sistema de frente de caixa rápido, seguro e integrado para o seu mercado.</p>
+                </div>
                 <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center min-h-[280px]">
                     <div className="w-37 h-37 flex items-center justify-center">
                         <Image src={managerOs} alt="Image manager os" width={150} height={150} />
@@ -77,7 +84,6 @@ export function PortfolioSection() {
                     <h3 className="font-bold mt-3">Automações</h3>
                     <p className="text-sm text-gray-600">Otimize processos repetitivos, reduza erros e ganhe mais tempo para focar no crescimento da sua empresa.</p>
                 </div>
-
             </div>
         </section>
 
